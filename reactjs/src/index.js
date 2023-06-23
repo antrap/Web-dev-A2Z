@@ -1,5 +1,15 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
+import React from 'react'
+import ReactDOM from 'react-dom'
 
+function ContactCard() {
+    return (
+        <div className='card'>
+            <img src={require("./Images/RRR.jpg")} alt="RRR film" />
 
-ReactDOM.render(<h1>Introduction to JSX</h1>, document.getElementById("root"));
+        </div>
+    )
+}
+
+ReactDOM.render(<ContactCard />, document.getElementById("root"))
+
+//document.getElementById("root").innerHTML = "Hello wolrd";
